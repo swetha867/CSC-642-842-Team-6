@@ -40,6 +40,13 @@ Branch 'kevin' set up to track remote branch 'kevin' from 'origin'.
 
 DO NOT CALL unless you know you are ready
 
-git pull origin BRANCH_NAME
+DO NOT "git pull origin BRANCH_NAME"
+
+cd snapdeliver/
+
+cd src/
+
+
+
 
 
