@@ -33,10 +33,13 @@ git branch -a
 if you see your own branch switch it by the following below,
 
 $ git checkout kevin
+
 Switched to a new branch 'kevin'
+
 Branch 'kevin' set up to track remote branch 'kevin' from 'origin'.
 
 DO NOT CALL unless you know you are ready
+
 git pull origin BRANCH_NAME
 
 
