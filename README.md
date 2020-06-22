@@ -12,7 +12,7 @@ npm install
 Run this project 
 npm start
 
-
+//sample
 
 Added bootstrap example for demo inside src/pages/signup
 
