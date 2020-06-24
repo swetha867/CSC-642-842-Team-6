@@ -46,7 +46,11 @@ cd snapdeliver/
 
 cd src/
 
+if you are know for sure you are on your own branch, you can just type
 
+"git push"
+
+also give it a commit message
 
 
 
