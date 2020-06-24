@@ -1,4 +1,9 @@
 
+.snap-logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
 .button-space {
     margin-right: 5px;
     padding-bottom: 5px;
@@ -9,3 +14,68 @@
     margin-left: 10%;
     padding-top: 5%;
 }
+
+.homepage {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+.navbar-snapdeliver {
+    margin-bottom: 5%;
+    
+}
+
+.page {
+    background-color: white;
+}
+
+.container-login {
+    background-color: aliceblue;
+    border-bottom: black;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}
+
+.login {
+    margin-top: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 50px;
+}
+
+.submit-button {
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    height: 40px;
+    width: 700px;
+}
+
+.cancel-button {
+    font-weight: bold;
+    background-color: red !important;
+    color: white;
+    margin-bottom: 1%;
+    margin-top: 0.5%;
+    height: 40px;
+    width: 700px;
+}
+
+.input-login {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.login-background {
+    margin-top: 10%;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.create-account {
+    padding-bottom: 5%;
+}
+
