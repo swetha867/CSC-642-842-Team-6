@@ -4,6 +4,7 @@ import './App.css';
 import Signup from "./pages/signup";
 import home from "./pages/home";
 import login from "./pages/login";
+import search from "./pages/search";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
@@ -16,6 +17,7 @@ function App() {
              <Route path="/signUp" component={Signup} />
              <Route path="/home" component={home} />
              <Route path="/login" component={login} />
+             <Route path="/search" component={search} />
          </Switch>
       </Router>
     </div>
