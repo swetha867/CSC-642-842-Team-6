@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const home = ()=>{
     return(
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bgg-light">
                 <img class="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,17 +74,17 @@ const home = ()=>{
                       </div>
               </div>
 
+
             <div class="container">
 
-
-                    <h1 className="">Popular Places Near SFSU</h1>
+                    <h1 className="">Time to Order! Popular Places Near SFSU</h1>
 
                     <div className="row">
                         <div className="food-card">
                             <img className="card-img-top" src={require(`../images/pizzahurt.jpg`)} alt=""/>
                             <div className="card-body">
                                 <h5 className="card-title">Pizza Hurt</h5>
-                                <p className="card-text">Come get some hot spicy pizza? Might be extremely spicy!</p>
+                                <p className="card-text">$0 Delivery Fee. 10-15 Mins to SFSU</p>
                                 <a href="#" className="btn btn-primary">Visit Pizza Hurt</a>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ const home = ()=>{
                             <img className="card-img-top" src={require(`../images/lavieenrose.jpg`)} alt=""/>
                             <div className="card-body">
                                 <h5 className="card-title">La Vie en Rose</h5>
-                                <p className="card-text">Come get some morning coffee and keep yourself alert!</p>
+                                <p className="card-text">$1.99 Delivery Fee. 10-20 Mins to SFSU</p>
                                 <a href="#" className="btn btn-primary">Visit La Vie en Rose</a>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const home = ()=>{
                             <img className="card-img-top" src={require(`../images/taco.jpg`)} alt=""/>
                             <div className="card-body">
                                 <h5 className="card-title">Tacoqueria</h5>
-                                <p className="card-text">Come try some amazing and juicy tacos with avocados now!</p>
+                                <p className="card-text">$1.99 Delivery Fee. 10-20 Mins to SFSU</p>
                                 <a href="#" className="btn btn-primary">Tacoqueria</a>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ const home = ()=>{
                         <div class="card-body">
                             <h5 class="card-title">Pizza</h5>
                             <p class="card-text">Come get some hot spicy pizza? Might be extremely spicy!</p>
-                            <a href="#" class="btn btn-primary">Visit Pizza</a>
+                            <a href="#" class="btn btn-primary">Visit Nearest Pizza</a>
                         </div>
                     </div>
                     <div class="food-card">
@@ -122,7 +122,7 @@ const home = ()=>{
                         <div class="card-body">
                             <h5 class="card-title">Coffee</h5>
                             <p class="card-text">Come get some morning coffee and keep yourself alert!</p>
-                            <a href="#" class="btn btn-primary">Visit Coffee</a>
+                            <a href="#" class="btn btn-primary">Visit Nearest Cafe</a>
                         </div>
                     </div>
                     <div class="food-card">
@@ -130,7 +130,7 @@ const home = ()=>{
                         <div class="card-body">
                             <h5 class="card-title">Taco</h5>
                             <p class="card-text">Come try some amazing and juicy tacos with avocados now!</p>
-                            <a href="#" class="btn btn-primary">Visit Taco</a>
+                            <a href="#" class="btn btn-primary">Visit Nearest Tacoqueria</a>
                         </div>
                     </div>
                 </div>
