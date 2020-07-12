@@ -79,3 +79,48 @@
     padding-bottom: 5%;
 }
 
+.homewallpaper{
+   position: relative;
+   min-height: 100%; /*THIS FREAKING THING FIT THE WHOLE BACKGROUND IMAGE*/
+    min-width: 100%; /*THIS FREAKING THING FIT THE WHOLE BACKGROUND IMAGE*/
+}
+
+/*Caption on top of wallpaper*/
+.caption{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 35%;
+    align-items: center;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+/*home search bar */
+.search-bar{
+
+    position: absolute;
+    margin-top: -400px;
+    margin-right: 0px;
+
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.cardbody {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0rem;
+}
+
+
+ .bgg-light {
+     background-color: white !important;
+ }

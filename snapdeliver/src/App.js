@@ -6,6 +6,7 @@ import home from "./pages/home";
 import login from "./pages/login";
 import navBar from "./pages/navBar";
 
+import search from "./pages/search";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
@@ -23,7 +24,7 @@ function App() {
              <Route path="/home" component={home} />
              <Route path="/login" component={login} />
              <Route path="/navBar" component={navBar} />
-
+             <Route path="/search" component={search} />
          </Switch>
       </Router>
     </div>
