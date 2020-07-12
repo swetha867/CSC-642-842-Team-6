@@ -20,6 +20,18 @@ if new js page is added, you need to route in app.js file like signup.js
 
 https://reacttraining.com/react-router/web/guides/quick-start
 
+-----------------------------------------------------------------------------------------------
+
+7/12/20:
+
+Install package by entering in terminal:
+
+npm install --save font-awesome
+
+
+(Remember include: import 'font-awesome/css/font-awesome.min.css';
+
+
 Notes For kevin's Branch below:
 
 -----------------------------------------------------------------------------------------------
