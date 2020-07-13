@@ -7,6 +7,11 @@
 .button-space {
     margin-right: 5px;
     padding-bottom: 5px;
+    
+}
+
+.button-space-row {
+    
 }
 
 .food-card {
@@ -43,6 +48,11 @@
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     font-size: 50px;
+    display: inline;
+    justify-content: center;
+    align-content: center;
+    
+    
 }
 
 .submit-button {
@@ -66,6 +76,7 @@
 .input-login {
     max-width: 700px;
     margin: 0 auto;
+    
 }
 
 .login-background {
@@ -79,3 +90,152 @@
     padding-bottom: 5%;
 }
 
+.homewallpaper{
+   position: relative;
+   min-height: 100%; /*THIS FREAKING THING FIT THE WHOLE BACKGROUND IMAGE*/
+    min-width: 100%; /*THIS FREAKING THING FIT THE WHOLE BACKGROUND IMAGE*/
+}
+
+/*Caption on top of wallpaper*/
+.caption{
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 35%;
+    align-items: center;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+/*home search bar */
+.search-bar{
+
+    position: absolute;
+    margin-top: -400px;
+    margin-right: 0px;
+
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.cardbody {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0rem;
+}
+
+
+ .bgg-light {
+     background-color: white !important;
+ }
+
+ .footer-inline {
+     display: inline;
+ }
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: slategrey;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+ }
+
+ .spacing {
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ hr {
+    
+ }
+
+#payment-info {
+    margin-bottom: 10%;
+    padding-bottom: 1%;
+}
+
+#expiration {
+    font-weight: bold;
+    font-size: large;
+    color: red;
+}
+
+#expiration2 {
+    margin-right: 2.5%;
+    color: blue;
+}
+
+#expiration3 {
+    margin-left: 2.5%;
+    color: blue;
+}
+
+#edit-info {
+    font-size: 15px;
+    font-weight: bold;
+    float: right; 
+    margin-top: 1.8%;
+    color: black;
+    padding-right: 0.5%;
+}
+
+#edit-border {
+    margin-bottom: 7%;
+    border-bottom: 20px black;
+}
+
+#header-background {
+    background-color: skyblue;
+}
+
+.searchbar {
+    max-width: 100%;
+    /*text-align: center;*/
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    float: left;
+    */
+    margin-right: 15%;
+    
+    color: lightslategrey;
+}
+
+#searchbar2 {
+   width: 200px;
+}
+
+#searchbar-button {
+    background-color: skyblue;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border: black;
+    /* This creates a rounded button, higher the number, more round/circular it gets */
+    border-radius: 5px;
+}
+
+td {
+    font-weight: bold;
+}
+
+table {
+    align-items: center;
+}
