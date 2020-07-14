@@ -36,7 +36,7 @@ const home = ()=>{
             </nav>
               {/*home wallpaper */}
               <div>
-                  <img className="homewallpaper"  src={require(`../images/homewallpaper.png`)} alt=""/>
+                  <img className="homewallpaper"  class="figure-img img-fluid rounded" src={require(`../images/homewallpaper.png`)} alt=""/>
                   {/* search bar */}
 
                   {/* <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </Link>
@@ -59,11 +59,11 @@ const home = ()=>{
 
                                           <div className="col">
                                               <input className="form-control form-control-lg form-control-borderless"
-                                                     type="search" placeholder="What are you craving?"></input>
+                                                     type="search" placeholder="What are you craving?" ></input>
                                           </div>
 
                                           <div className="col-auto">
-                                              <a href="/search"><button className="btn btn-lg btn-success" type="button">Find</button></a>
+                                          <a href="/search"><button className="btn btn-lg btn-success" type="button">Find</button></a>
                                           </div>
 
                                       </div>

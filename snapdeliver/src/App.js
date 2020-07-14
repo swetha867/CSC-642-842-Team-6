@@ -4,7 +4,7 @@ import React from 'react';
 import signup from "./pages/signup";
 import home from "./pages/home";
 import login from "./pages/login";
-import navBar from "./pages/navBar";
+import orderSummary from "./pages/orderSummary";
 
 import search from "./pages/search";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -14,19 +14,28 @@ function App() {
   return (
     <div className="container">
       <Router>
-         <Link to="/home"> home</Link>  
-         <Link to="/signup"> Signup</Link>   
+         {/* <Link to="/signup"> Signup</Link>   
 
-         <Link to="/navBar"> navBar</Link>   
- 
+         <Link to="/orderSummary"> orderSummary</Link>    */}
+        
          <Switch>
              <Route path="/signup" component={signup} />
-             <Route path="/home" component={home} />
+             <Route exact path="/" component={home} />
              <Route path="/login" component={login} />
-             <Route path="/navBar" component={navBar} />
              <Route path="/search" component={search} />
+             <Route path="/orderSummary" component={orderSummary} />
+
          </Switch>
       </Router>
+      <footer class="my-5 pt-5 text-center text-small">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">Contact</a></li>
+            <li class="list-inline-item"><a href="#">Partner</a></li>
+
+          </ul>
+        </footer>
     </div>
   );
 }
