@@ -5,6 +5,10 @@ import signup from "./pages/signup";
 import home from "./pages/home";
 import login from "./pages/login";
 import orderSummary from "./pages/orderSummary";
+import restaurantMenu from "./pages/vendor-page";
+import vendorHome from "./pages/vendor-home";
+import orderSummary2 from "./pages/order-summary";
+
 
 import search from "./pages/search";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -24,6 +28,12 @@ function App() {
              <Route path="/login" component={login} />
              <Route path="/search" component={search} />
              <Route path="/orderSummary" component={orderSummary} />
+             <Route path="/restaurantMenu" component={restaurantMenu} />
+             <Route path="/vendorHome" component={vendorHome} />
+             <Route path="/orderSummary2" component={orderSummary2} />
+
+
+             
 
          </Switch>
       </Router>
