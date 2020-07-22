@@ -7,6 +7,7 @@ import login from "./pages/login";
 import orderSummary from "./pages/orderSummary";
 import restaurantMenu from "./pages/vendor-page";
 import vendorHome from "./pages/vendor-home";
+import orderConfirmation from "./pages/orderConfirmation";
 import orderSummary2 from "./pages/order-summary";
 
 
@@ -31,12 +32,11 @@ function App() {
              <Route path="/restaurantMenu" component={restaurantMenu} />
              <Route path="/vendorHome" component={vendorHome} />
              <Route path="/orderSummary2" component={orderSummary2} />
-
-
-             
-
+             <Route path="/orderconfirmation" component={orderConfirmation} />
+             {/* <Route path="/orderStatus" component={orderStatus} /> */}
          </Switch>
       </Router>
+
       <footer class="my-5 pt-5 text-center text-small">
           <ul class="list-inline">
             <li class="list-inline-item"><a href="#">About</a></li>
