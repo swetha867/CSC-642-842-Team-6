@@ -91,7 +91,7 @@ class SimpleMap extends Component {
                     </form>
 
 
-                    < div className = "card" >
+                    < div className = "card cardmargin" >
                         < div className = "card-horizontal" >
                             < div className = "img-square-wrapper" >
                                 <img className="cards-img"   src ={ require(`../images/jangba.jpg`) } alt = "Card image cap" />
@@ -116,7 +116,7 @@ class SimpleMap extends Component {
 
                     {/*Another Card */}
 
-                    < div className = "card" >
+                    < div className = "card cardmargin" >
                         < div className = "card-horizontal" >
                             < div className = "img-square-wrapper" >
                                 <img className="cards-img"   src ={ require(`../images/jangba1.jpg`)} alt = "Card image cap" />
