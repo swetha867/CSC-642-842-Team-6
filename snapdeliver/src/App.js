@@ -1,27 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Signup from "./pages/signup";
+//import logo from './logo.svg';
+//import './App.css';
+import signup from "./pages/signup";
 import home from "./pages/home";
 import login from "./pages/login";
+import orderSummary from "./pages/orderSummary";
+import myMarker from "./pages/Marker";
 import search from "./pages/search";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 function App() {
-  return (
-    <div className="App">
-      <Router>
-         <Link to="/home"> home</Link>   
-         <Switch>
-             <Route path="/signUp" component={Signup} />
-             <Route path="/home" component={home} />
-             <Route path="/login" component={login} />
-             <Route path="/search" component={search} />
-         </Switch>
-      </Router>
-    </div>
-  );
+    return (
+        <div className="container">
+            <Router>
+                {/* <Link to="/signup"> Signup</Link>
+
+         <Link to="/orderSummary"> orderSummary</Link>    */}
+
+                <Switch>
+                    <Route path="/signup" component={signup} />
+                    <Route exact path="/" component={home} />
+                    <Route path="/login" component={login} />
+                    <Route path="/search" component={search} />
+                    <Route path="/orderSummary" component={orderSummary}/>
+                    <Route path="/mymarker" component={myMarker}/>
+
+                </Switch>
+            </Router>
+            <footer className="my-5 pt-5 text-center text-small">
+                <ul className="list-inline">
+                    <li className="list-inline-item"><a href="#">About</a></li>
+                    <li className="list-inline-item"><a href="#">Services</a></li>
+                    <li className="list-inline-item"><a href="#">Contact</a></li>
+                    <li className="list-inline-item"><a href="#">Partner</a></li>
+
+                </ul>
+            </footer>
+        </div>
+    );
 }
 
 export default App;
