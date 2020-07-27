@@ -11,6 +11,7 @@ import search from "./pages/search";
 import restaurantMenu from "./pages/vendor-page";
 import vendorHome from "./pages/vendor-home";
 import orderSummary2 from "./pages/order-summary";
+import signupvendor from "./pages/signupvendor";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/restaurantMenu" component={restaurantMenu} />
                     <Route path="/vendorHome" component={vendorHome} />
                     <Route path="/orderSummary2" component={orderSummary2} />
+                    <Route path="/signupvendor" component={signupvendor}/>
 
 
                 </Switch>
