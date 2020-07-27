@@ -10,6 +10,7 @@ import myMarker from "./pages/Marker";
 import search from "./pages/search";
 import restaurantMenu from "./pages/vendor-page";
 import vendorHome from "./pages/vendor-home";
+import orderConfirmation from "./pages/orderConfirmation";
 import orderSummary2 from "./pages/order-summary";
 import signupvendor from "./pages/signupvendor";
 
@@ -35,6 +36,7 @@ function App() {
                     <Route path="/vendorHome" component={vendorHome} />
                     <Route path="/orderSummary2" component={orderSummary2} />
                     <Route path="/signupvendor" component={signupvendor}/>
+                    <Route path="/orderconfirmation" component={orderConfirmation} />
 
 
                 </Switch>
@@ -50,6 +52,7 @@ function App() {
             </footer>
         </div>
     );
+
 }
 
 export default App;
