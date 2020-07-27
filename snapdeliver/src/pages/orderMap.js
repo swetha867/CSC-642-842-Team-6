@@ -15,7 +15,7 @@ class OrderMap extends Component {
   render() {
     return (
       <GoogleMapReact
-        // bootstrapURLKeys={{ key: 'AIzaSyDSpfEtjSW9EHCCt_WQKSszC5eEiRxKuUw' }}
+        bootstrapURLKeys={{ key: 'AIzaSyDSpfEtjSW9EHCCt_WQKSszC5eEiRxKuUw' }}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
       >
