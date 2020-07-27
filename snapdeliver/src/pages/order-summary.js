@@ -73,9 +73,10 @@ const orderSummary = ()=>{
                                     <option default>Expiry Year</option>
                                 </select>
                             </div>
-                            <div className="col-2">
-                                <input type="number" id="inputCVV" placeholder="CVV"></input>
-                            </div>
+                            <div class="col-md-4 mb-3">
+                            <input type="text" class="form-control" id="cc-cvv" placeholder="CVV" ></input>
+     
+                             </div>
                         </div>
 
                         <hr></hr>
@@ -118,15 +119,18 @@ const orderSummary = ()=>{
                     </div>
                     <div className="col-md-5 offset-md-1">
                         <div className="order-summary-list">
-                            <h4>Order Summary</h4>
+                            {/* <h4>Order Summary</h4>
                             <hr></hr>
                             <div className="row order-summary-item">
                                 <div className="col-3 order-summary-image">
                                     <img className="img-fluid" src={require('../images/taco.jpg')}></img>
                                 </div>
-                                <div className="col-6">Item Name</div>
-                                <div className="col-3">$0.00</div>
-                            </div>
+                <div>
+                                <h6 class="my-0">Tacoqueria Steak </h6>
+                  <small class="text-muted">Taco x2</small>   
+                  </div>
+                 </div>                     
+                                <div className="col-3">$7.00</div>
                             <div className="row order-summary-item">
                                 <div className="col-3 order-summary-image">
                                     <img className="img-fluid" src={require('../images/taco.jpg')}></img>
@@ -145,16 +149,62 @@ const orderSummary = ()=>{
                             </div>
                         </div>
                         <button className="btn btn-primary btn-lg order-submit-button mx-auto d-block" type="submit">Order</button>
-                    </div>
-
+                    </div> */}
+ <h4 class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-muted">Order Summary</span>
+              <span class="badge badge-secondary badge-pill">2</span>
+            </h4>
+            <ul class="list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div className="order-summary-image">
+                                    <img className="img-fluid" src={require('../images/taco.jpg')} style={{"width":"105.93px"}}></img>
                 </div>
-                </form>
+                <div>
 
+                  <h6 class="my-0">Tacoqueria Steak </h6>
+                  <small class="text-muted">Taco x2</small>
+                </div>
+                <span class="text-muted">$7</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div className="order-summary-image">
+                                    <img className="img-fluid" src={require('../images/taco.jpg')} style={{"width":"105.93px"}}></img>
+                </div>
+                <div>
+                  <h6 class="my-0">Tacoqueria Beef </h6>
+                  <small class="text-muted">Nacho</small>
+                </div>
+                <span class="text-muted">$7</span>
+              </li>
+             
+              <li class="list-group-item d-flex justify-content-between bg-light">
+                <div class="text-success">
+                  <h6 class="my-0">Sub Total</h6>
+                </div>
+                <span class="text-success">$14</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span>Order Total (USD)</span>
+                <strong>$15.88</strong>
+              </li>
+             
+            </ul>
+            <form class="card p-2">
+              <div class="input-group">
+                {/* <input type="text" class="form-control" placeholder="Promo code"></input>
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-secondary">Redeem</button>
+                </div> */}
+                              <button class="btn btn-primary btn-lg btn-block" type="submit">Order</button>
+
+              </div>
+            </form>
+                </div></div></div>
+</form></div>
             </div>
         </div>
 
 
-        </div>
         
 
     )

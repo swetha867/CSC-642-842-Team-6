@@ -1,0 +1,26 @@
+
+
+.bluecolor {
+    color: rgb(11, 122, 255);
+}
+
+.redcolor {
+
+    color: red;
+}
+
+.formwh {
+
+    width: 304px;
+    height: 78px;
+}
+
+.c-alignment{
+
+    text-align: center;
+}
+
+.padd{
+    padding: 75px;
+}
+

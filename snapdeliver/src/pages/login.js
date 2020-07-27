@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/home.css"
+import "../css/snapDeli.css"
 
 
 const login = ()=>{
     return(
-        <div class="page">
-            <nav class="navbar-snapdeliver navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bgg-light">
                 <img class="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,53 +28,35 @@ const login = ()=>{
 
                         <a href="/login"><button type="button" class="btn btn-primary button-space">Login</button></a>
 
-                        <button type="button" class="btn btn-primary button-space">SignUp</button>
+                        <a href="/signup"><button type="button" class="btn btn-primary button-space" onClick="/signup">SignUp</button></a>
 
                     </ul>
                 </div>
             </nav>
+  <div class="form-signin">
+  
+  <h1 class="h3 mb-3 font-weight-normal">Log In</h1>
+  
+  <div class="form-group">
+        <label for="inputEmail" style={{"float":"left","font-weight":"bold"}}>Email Address</label>
+        <input type="email" class="form-control" id="inputEmail"  placeholder="Enter Email"></input>
+         
+         </div>
+  <div class="form-group">
+        <label for="inputPassword" style={{"float":"left","font-weight":"bold"}}>Password</label>
+           <input type="password" placeholder="password"  class="form-control" id="inputPassword"  ></input>
+            <a class="nav-link" href="#" style={{"float":"right"}}>Forgot password?</a>
 
-            <div class="container container-login">
+         </div>
 
-                <h1 class="login">Login</h1>
+         <a href="/"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
+  <br/>
+      <li class="list-inline-item"><a class="mt-5 mb-3 " href="/signup">Dont have an account?Signup</a></li>
+      <div >
+      </div>
+      </div>
 
-                <form>
-                    <div class="form-group input-login">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group input-login">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-                    </div>
-                    
-                    <div>
-                        <a href="#">Forgot My Password</a>
-                    </div>
-                    
-
-                    <button type="submit" class="btn btn-primary submit-button">Submit</button>
-
-                    <div>
-                        <button class="btn btn-primary cancel-button">Cancel</button>
-                    </div>
-
-                    <div class="create-account">
-                        <a href="#">Not a member? Create an account</a>
-                    </div>
-
-                </form>
-                
-                
-            </div>
-
-            <div>
-                <img class="snap-logo card-img-top login-background" src={require(`../images/login-background.png`)} alt=""/>
-            </div>
-
-        </div>
-        
+</div>
 
     )
 
