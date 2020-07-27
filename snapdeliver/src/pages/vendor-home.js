@@ -56,9 +56,9 @@ const vendorHome = ()=>{
                             Vendor Info
                         </p>
                         <ul>
-                            <li>Address, 94000</li>
+                            <li>1700 Haven Street, 94000</li>
                             <li>(000) 000-0000</li>
-                            <li><a href="#">www.example.com</a></li>
+                            <li><a href="#">www.halocoffee.com</a></li>
                         </ul>
                         <h5>Covid-19 Services</h5>
                         <ul>
@@ -73,66 +73,56 @@ const vendorHome = ()=>{
 
                 <hr></hr>
 
-                <div className="row">
-                    <div className="col-md-8">
+                    <div className="row">
+                    <div className="col-md-12">
                         <h3><strong>MENU</strong></h3>
-                        <h3>Food</h3>
+                        <h2>Food <a href="#" style={{"float":"right"}}>Add/Delete Menu</a></h2> 
+                        
+                        
                         <div className="row">
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/taco.jpg')}></img>
+                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} alt=""/>
                                 <br></br>
-                                Food #1
+                                Chicken Sandwich
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/taco.jpg')}></img>
+                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} alt=""/>
                                 <br></br>
-                                Food #2
+                               Tuna Sandwich
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/taco.jpg')}></img>
+                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} alt=""/>
                                 <br></br>
-                                Food #3
+                                Turkey sandwich
                             </div>
-                            <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/taco.jpg')}></img>
-                                <br></br>
-                                Food #4
-                            </div>
+                           
                         </div>
                         <h3>Drinks</h3>
                         <div className="row">
                         <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/coffee.jpg')}></img>
+                        <img className="card-img-top" src={require(`../images/drink.jpg`)} alt=""/>
                                 <br></br>
-                                Drink #1
+                                Latte
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/coffee.jpg')}></img>
+                            <img className="card-img-top" src={require(`../images/drink.jpg`)} alt=""/>
                                 <br></br>
-                                Drink #2
+                                Coffee
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/coffee.jpg')}></img>
+                            <img className="card-img-top" src={require(`../images/drink.jpg`)} alt=""/>
                                 <br></br>
-                                Drink #3
+                               Mocha
                             </div>
-                            <div className="vendor-menu-item col-xs-6 col-md-3">
-                                <img className="vendor-menu-item-image" src={require('../images/coffee.jpg')}></img>
-                                <br></br>
-                                Drink #4
-                            </div>
+                            
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <a href="#">Add/Delete Menu</a>
-                    </div>
+                   
                 </div>
 
             </div>
-        </div>
-
-
-        </div>
+   </div>
+   </div>
         
 
     )

@@ -53,8 +53,13 @@ const vendorPage = ()=>{
                     <div className="col-12 col-sm-10">
                         <h2>Sticky Rice Cafe</h2>
                         <span class="badge badge-pill badge-info">Modern Asian</span>
+                        <span class="badge badge-pill badge-info">Vegetarian</span>
+                        <span class="badge badge-pill badge-info">Popular with Students</span>
+
                     </div>
+
                     <div className="col-12 col-sm-2 vendor-rating">4.5 stars</div>
+
                     <div className="col-12 vendor-header"></div>
                     <div className="col-12 col-md-7">
                         <p>0.4 miles from SFSU</p>
@@ -70,7 +75,7 @@ const vendorPage = ()=>{
                     <div className="col-12 col-md-5" id="map"></div>
                     <div className="col-12 col-md-8">
                         <input class="form-control" type="text" placeholder="Find a menu item"></input>
-
+                            <br/>
                         <ul class="nav nav-tabs" id="vendorTab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="specials-tab" data-toggle="tab" href="#specials" role="tab" aria-controls="specials" aria-selected="true">Specials</a>
@@ -88,14 +93,20 @@ const vendorPage = ()=>{
                         <div class="tab-content" id="vendorTabContent">
                             <div class="tab-pane fade show active" id="specials" role="tabpanel" aria-labelledby="specials-tab">
                                 <div class="row my-3">
-                                    <div className="menu-image col-12" style={{backgroundImage: 'url(' + require('../images/taco.jpg') + ')' }}></div>
+                                    <div className="menu-image col-12" >
+                                    <img className="cards-img"   src ={ require(`../images/friedrice.jpg`) } style={{"width": "618px","height": "164px"}}  class="img-fluid" alt = "Card image cap" />
+
+                                    </div>
                                     <div className="col-9">1 Bowl 2 items fried rice included - $9.99</div>
-                                    <div className="col-3"><button type="button" class="btn btn-small btn-primary">Add to cart</button></div>
+                                    <div className="col-3"><button type="button" class="btn btn-outline-primary">Add to cart</button></div>
                                 </div>
                                 <div class="row my-3">
-                                    <div className="menu-image col-12" style={{backgroundImage: 'url(' + require('../images/taco.jpg') + ')' }}></div>
+                                    <div className="menu-image col-12" >
+                                    <img className="cards-img"   src ={ require(`../images/friedrice.jpg`) } style={{"width": "618px","height": "164px"}}  class="img-fluid" alt = "Card image cap" />
+
+                                    </div>
                                     <div className="col-9">1 Plate 2 items - $9.99</div>
-                                    <div className="col-3"><button type="button" class="btn btn-small btn-primary">Add to cart</button></div>
+                                    <div className="col-3"><button type="button" class="btn btn-outline-primary">Add to cart</button></div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="appetizers" role="tabpanel" aria-labelledby="appetizers-tab"></div>
@@ -104,29 +115,56 @@ const vendorPage = ()=>{
                         </div>
 
                     </div>
-                    <div className="col-12 col-md-4">
-                        <div className="order-summary-list">
-                            <h4>My Cart</h4>
-                            <hr></hr>
-                            <div className="row order-summary-item">
-                                <div className="col-3 order-summary-image">
-                                    <img className="img-fluid" src={require('../images/taco.jpg')}></img>
-                                </div>
-                                <div className="col-6">Item Name</div>
-                                <div className="col-3">$0.00</div>
-                            </div>
-                            <div className="row order-summary-item">
-                                <div className="col-3 order-summary-image">
-                                    <img className="img-fluid" src={require('../images/taco.jpg')}></img>
-                                </div>
-                                <div className="col-6">Item Name</div>
-                                <div className="col-3">$0.00</div>
-                            </div>
-                        </div>
-                        <button className="btn btn-primary btn-lg order-submit-button mx-auto d-block" type="submit">Order Now</button>
-                    </div>
+                   
+<div className="col-12 col-md-4">             
+<h4>My Cart</h4>
+            <ul class="list-group mb-3">
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div className="order-summary-image">
+                                    <img className="img-fluid" src={require('../images/taco.jpg')} style={{"width":"105.93px"}}></img>
                 </div>
+                <div>
 
+                  <h6 class="my-0">Tacoqueria Steak </h6>
+                  <small class="text-muted">Taco x2</small>
+                </div>
+                <span class="text-muted">$7</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div className="order-summary-image">
+                                    <img className="img-fluid" src={require('../images/taco.jpg')} style={{"width":"105.93px"}}></img>
+                </div>
+                <div>
+                  <h6 class="my-0">Tacoqueria Beef </h6>
+                  <small class="text-muted">Nacho</small>
+                </div>
+                <span class="text-muted">$7</span>
+              </li>
+             
+              <li class="list-group-item d-flex justify-content-between bg-light">
+                <div class="text-success">
+                  <h6 class="my-0">Sub Total</h6>
+                </div>
+                <span class="text-success">$14</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between">
+                <span>Order Total (USD)</span>
+                <strong>$15.88</strong>
+              </li>
+             
+            </ul>
+            <div class="card p-2">
+              <div class="input-group">
+                {/* <input type="text" class="form-control" placeholder="Promo code"></input>
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-secondary">Redeem</button>
+                </div> */}
+                     <a href="/orderSummary2">         <button class="btn btn-primary btn-lg btn-block" type="submit">Order Now</button></a>
+
+              </div>
+                </div>
+</div>
+</div>
                 <hr></hr>
 
 
