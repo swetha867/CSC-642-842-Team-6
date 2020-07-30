@@ -25,24 +25,15 @@ const vendorHome = ()=>{
 
             <div>
                 <ul>
-                    <a href="/login"><button type="button" class="btn btn-primary button-space">Login</button></a>
+                    <a href="/login"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
 
-                    <button type="button" class="btn btn-primary button-space">SignUp</button>
+                    <button type="button" class="btn btn-primary button-space">Log out</button>
                 </ul>
             </div>
 
         </nav>
-        {/*home wallpaper */}
         <div class="wallpapered">
             
-            {/* search bar */}
-
-            {/* <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </Link>
-
-                <form class="example" action="action_page.php">
-                    <input type="text" placeholder="Search.." name="search"/>
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                </form> */}
             <Link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
                 integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
                 crossOrigin="anonymous"> </Link>
@@ -51,7 +42,7 @@ const vendorHome = ()=>{
             
                 <div className="row">
                     <div className="col-md-8">
-                        <h2><strong>VENDOR NAME</strong></h2>
+                        <h2><strong>HALO COFFEE</strong></h2>
                         <p class="vendor-info">
                             Vendor Info
                         </p>
@@ -65,6 +56,9 @@ const vendorHome = ()=>{
                             <li>Takeout</li>
                             <li>Non-contact delivery</li>
                         </ul>
+                        <h6>
+                         <span class="spinner-grow spinner-grow-sm"style={{"color":"Red"}}>  </span> <span style={{"color":"Red"}}> Live :</span> <span style={{"color":"green"}}>Waiting time to deliver to SFSU :10 minutes</span>
+                        </h6>
                     </div>
                     <div className="col-md-4">
                         <a href="#">Change Info</a>
@@ -76,8 +70,9 @@ const vendorHome = ()=>{
                     <div className="row">
                     <div className="col-md-12">
                         <h3><strong>MENU</strong></h3>
-                        <h2>Food <a href="#" style={{"float":"right"}}>Add/Delete Menu</a></h2> 
-                        
+                        <a href="#" style={{"float":"right"}}>Add/Delete Menu</a>
+
+                        <h2>Food </h2> 
                         
                         <div className="row">
                             <div className="vendor-menu-item col-xs-6 col-md-3">
@@ -115,7 +110,9 @@ const vendorHome = ()=>{
                                Mocha
                             </div>
                             
+                            
                         </div>
+                       
                     </div>
                    
                 </div>

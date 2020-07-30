@@ -13,7 +13,8 @@ import vendorHome from "./pages/vendor-home";
 import orderConfirmation from "./pages/orderConfirmation";
 import orderSummary2 from "./pages/order-summary";
 import signupvendor from "./pages/signupvendor";
-
+import userAccount from "./pages/userAccount";
+import vendorLogin from "./pages/vendorLogin";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
@@ -21,9 +22,6 @@ function App() {
     return (
         <div>
             <Router>
-                {/* <Link to="/signup"> Signup</Link>
-
-         <Link to="/orderSummary"> orderSummary</Link>    */}
 
                 <Switch>
                     <Route path="/signup" component={signup} />
@@ -37,6 +35,9 @@ function App() {
                     <Route path="/orderSummary2" component={orderSummary2} />
                     <Route path="/signupvendor" component={signupvendor}/>
                     <Route path="/orderconfirmation" component={orderConfirmation} />
+                    <Route path="/userAccount" component={userAccount} />
+                    <Route path="/vendorLogin" component={vendorLogin} />
+
 
 
                 </Switch>
