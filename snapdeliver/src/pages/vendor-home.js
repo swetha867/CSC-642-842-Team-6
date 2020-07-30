@@ -56,9 +56,9 @@ const vendorHome = ()=>{
                             <li>Takeout</li>
                             <li>Non-contact delivery</li>
                         </ul>
-                        <ul>
+                        <h6>
                          <span class="spinner-grow spinner-grow-sm"style={{"color":"Red"}}>  </span> <span style={{"color":"Red"}}> Live :</span> <span style={{"color":"green"}}>Waiting time to deliver to SFSU :10 minutes</span>
-                        </ul>
+                        </h6>
                     </div>
                     <div className="col-md-4">
                         <a href="#">Change Info</a>
