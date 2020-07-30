@@ -6,32 +6,35 @@ import {Link} from 'react-router-dom';
 const orderSummary = ()=>{
     return(
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bgg-light">
-            <img className="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-
-                    <li className="nav-item active">
-                    <a className="nav-link homepage" href="/home">Order Summary <span className="sr-only">(current)</span></a>
-                    </li>
-
-                </ul>
-                    
-            </div>
-
-            <div>
-                <ul>
-                    <a href="/login"><button type="button" className="btn btn-primary button-space">Login</button></a>
-
-                    <button type="button" className="btn btn-primary button-space">SignUp</button>
-                </ul>
-            </div>
-
+        <nav class="navbar navbar-expand-lg navbar-light bgg-light">
+        <img class="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        
+        <li class="nav-item active">
+        <a class="nav-link homepage" href="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+        
+        </ul>
+        
+        </div>
+        
+        <div>
+        <ul>
+        
+        <a href="/orderSummary2"><button type="button" class="btn btn-primary button-space">cart</button></a>
+        
+        <a href="/userAccount"><button type="button" class="btn btn-primary button-space" onClick="/signup">My Account</button></a>
+        
+        </ul>
+        </div>
         </nav>
+        
         {/*home wallpaper */}
         <div className="wallpapered">
             
@@ -49,7 +52,6 @@ const orderSummary = ()=>{
             
             <div className="container container-order-summary">
             
-                <form>
                 <div className="row">
                     
                     <div className="col-md-5 offset-md-1">
@@ -189,18 +191,14 @@ const orderSummary = ()=>{
               </li>
              
             </ul>
-            <form class="card p-2">
-              <div class="input-group">
                 {/* <input type="text" class="form-control" placeholder="Promo code"></input>
                 <div class="input-group-append">
                   <button type="submit" class="btn btn-secondary">Redeem</button>
                 </div> */}
-                              <button class="btn btn-primary btn-lg btn-block" type="submit">Order</button>
+                        <a href="/orderconfirmation"><button class="btn btn-primary btn-lg btn-block" type="submit">Order</button></a>
 
-              </div>
-            </form>
                 </div></div></div>
-</form></div>
+</div>
             </div>
         </div>
 

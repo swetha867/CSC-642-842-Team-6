@@ -42,7 +42,6 @@ const Signupvendor = ()=>{
         <div className= "container">
             <div className="signup-form">
 
-                <form className= "padd">
                     <h2 className= "bluecolor c-alignment" >Register</h2>
                     <p className="hint-text bluecolor c-alignment" >Want more Sales? Free Sign Up to special deliver to SFSU!</p>
                     <p>
@@ -111,15 +110,14 @@ const Signupvendor = ()=>{
 
                         <div>
 
-                            <button className="btn btn-warning btn-lg btn-block " type="submit" value="Register Now"
+                          <a href="/vendorLogin">  <button className="btn btn-warning btn-lg btn-block " type="submit" value="Register Now"
                                     id="submit">Register Now
-                            </button>
+                            </button></a>
 
                             <div className="text-center bluecolor" >Already have an vendor account? <a
-                                href="#">Sign in</a></div>
+                                href="/vendorLogin">Sign in</a></div>
                         </div>
                     </div>
-                </form>
 
 
             </div>
