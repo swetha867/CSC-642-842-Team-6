@@ -27,7 +27,7 @@ const vendorHome = ()=>{
                 <ul>
                     <a href="/login"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
 
-                    {/* <button type="button" class="btn btn-primary button-space">SignUp</button> */}
+                    <button type="button" class="btn btn-primary button-space">Log out</button>
                 </ul>
             </div>
 

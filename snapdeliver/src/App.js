@@ -22,9 +22,6 @@ function App() {
     return (
         <div>
             <Router>
-                {/* <Link to="/signup"> Signup</Link>
-
-         <Link to="/orderSummary"> orderSummary</Link>    */}
 
                 <Switch>
                     <Route path="/signup" component={signup} />

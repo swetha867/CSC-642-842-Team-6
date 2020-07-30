@@ -30,7 +30,8 @@ const orderSummary = ()=>{
         <a href="/orderSummary2"><button type="button" class="btn btn-primary button-space">cart</button></a>
         
         <a href="/userAccount"><button type="button" class="btn btn-primary button-space" onClick="/signup">My Account</button></a>
-        
+        <button type="button" class="btn btn-primary button-space">Log out</button>
+
         </ul>
         </div>
         </nav>

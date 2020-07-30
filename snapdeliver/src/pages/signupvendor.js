@@ -17,7 +17,7 @@ const Signupvendor = ()=>{
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 
                     <li className="nav-item active">
-                        <a className="nav-link homepage" href="/home">Home <span
+                        <a className="nav-link homepage" href="/vendorHome">Home <span
                             className="sr-only">(current)</span></a>
                     </li>
 
@@ -72,7 +72,7 @@ const Signupvendor = ()=>{
 
                     <div className="form-group">
                         <span className= "redcolor">* </span> Business Name
-                        <input type="user" className="username form-control" name="username" placeholder="Username" required=""/>
+                        <input type="user" className="username form-control" name="username" placeholder="Business Name" required=""/>
                     </div>
 
                     <div className="form-group">
@@ -110,7 +110,7 @@ const Signupvendor = ()=>{
 
                         <div>
 
-                          <a href="/vendorLogin">  <button className="btn btn-warning btn-lg btn-block " type="submit" value="Register Now"
+                          <a href="/vendorLogin">  <button className="btn btn-success btn-lg btn-block " type="submit" value="Register Now"
                                     id="submit">Register Now
                             </button></a>
 
