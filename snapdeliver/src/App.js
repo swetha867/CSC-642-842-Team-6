@@ -4,22 +4,24 @@ import React from 'react';
 import signup from "./pages/signup";
 import home from "./pages/home";
 import login from "./pages/login";
+
 import orderSummary from "./pages/orderSummary";
+import myMarker from "./pages/Marker";
+import search from "./pages/search";
 import restaurantMenu from "./pages/vendor-page";
 import vendorHome from "./pages/vendor-home";
 import orderConfirmation from "./pages/orderConfirmation";
 import orderSummary2 from "./pages/order-summary";
+import signupvendor from "./pages/signupvendor";
 
-
-import search from "./pages/search";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 function App() {
-  return (
-    <div className="container">
-      <Router>
-         {/* <Link to="/signup"> Signup</Link>   
+    return (
+        <div>
+            <Router>
+                {/* <Link to="/signup"> Signup</Link>
 
          <Link to="/orderSummary"> orderSummary</Link>    */}
         
