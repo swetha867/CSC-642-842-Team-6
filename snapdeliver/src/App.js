@@ -37,8 +37,8 @@ function App() {
                     <Route path="/orderconfirmation" component={orderConfirmation} />
                     <Route path="/userAccount" component={userAccount} />
                     <Route path="/vendorLogin" component={vendorLogin} />
-
-
+                    <Route path="/orderconfirmation" component={orderConfirmation} />
+                    <Route path="/orderStatus" component={orderConfirmation} />
 
                 </Switch>
             </Router>

@@ -43,7 +43,7 @@ const orderConfirmation = () => {
                 <div className="col col-md-6">
                     <h2>Order Confirmation</h2>
                     <p>Thank you for your Order with Rice Bowls, Inc</p>
-                    <p>Order 697709992222</p>
+                    <p>Order #697709992222</p>
                     <p>July 1, 2020 5:00 PM</p>
 
                     
@@ -54,37 +54,37 @@ const orderConfirmation = () => {
                                 <div className="col-3 order-summary-image">
                                     <img className="img-fluid" src={require('../images/taco.jpg')}></img>
                                 </div>
-                                <div className="col-6">Item Name</div>
-                                <div className="col-3">$0.00</div>
+                                <div className="col-6">Tacoqueria Steak</div>
+                                <div className="col-3">$7.00</div>
                             </div>
                             <div className="row order-summary-item">
                                 <div className="col-3 order-summary-image">
                                     <img className="img-fluid" src={require('../images/taco.jpg')}></img>
                                 </div>
-                                <div className="col-6">Item Name</div>
-                                <div className="col-3">$0.00</div>
+                                <div className="col-6">Tacoqueria Beef</div>
+                                <div className="col-3">$7.00</div>
                             </div>
                             <hr></hr>
                             <div className="row">
                                 <div className="col-6">Sub Total</div>
-                                <div className="col-6">$0.00</div>
+                                <div className="col-6">$14.00</div>
                             </div>
                             <div className="row">
                                 <div className="col-6"><strong>Order Total</strong></div>
-                                <div className="col-6"><strong>$0.00</strong></div>
+                                <div className="col-6"><strong>$15.88</strong></div>
                             </div>
                         </div>
 
                 </div>
                 <div className="col col-md-6">
-                    <h1>Delivery Details</h1>
+                    <h2>Delivery Details</h2>
 
                     <p className="lead">You Delivery will arrive in 20 minutes </p>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped" role="progressbar" styleName="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
         
-                    <p>no-contact delivery</p>
+                    <p>No-contact delivery</p>
 
                     <dl class="row">
                         <dt class="col-sm-3">Driver Name</dt>
@@ -97,9 +97,9 @@ const orderConfirmation = () => {
                     </dl>
 
                     Delivery Address:
-                    Spauenge Bawb
-                    777 Hope Street
-                    Los Angeles, CA 94111 
+                    <p>Spauenge Bawb</p>
+                    <p>777 Hope Street</p>
+                    <p>Los Angeles, CA 94111 </p>
 
                     {/* // Important! Always set the container height explicitly */}
                     <div style={{ height: '500px', width: '100%' }}>
