@@ -159,7 +159,7 @@ const vendorPage = ()=>{
                 <div class="input-group-append">
                   <button type="submit" class="btn btn-secondary">Redeem</button>
                 </div> */}
-                     <a href="/orderSummary2">         <button class="btn btn-primary btn-lg btn-block" type="submit">Order Now</button></a>
+                     <a href="/orderSummary2"><button class="btn btn-primary btn-lg btn-block" type="submit">Order Now</button></a>
 
               </div>
                 </div>

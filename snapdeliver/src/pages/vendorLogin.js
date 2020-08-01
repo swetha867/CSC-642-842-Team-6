@@ -2,7 +2,7 @@ import React from "react";
 import "../css/snapDeli.css"
 
 
-const login = ()=>{
+const vendorLogin = ()=>{
     return(
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bgg-light">
@@ -49,7 +49,7 @@ const login = ()=>{
 
          </div>
 
-         <a href="/"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
+         <a href="/vendorHome"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
   <br/>
       <li class="list-inline-item"><a class="mt-5 mb-3 " href="/signup">Dont have an account?Signup</a></li>
       <div >
@@ -65,4 +65,4 @@ const login = ()=>{
 
 
 }
-export default login;
+export default vendorLogin;
