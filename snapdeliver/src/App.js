@@ -33,7 +33,7 @@ function App() {
              <Route path="/vendorHome" component={vendorHome} />
              <Route path="/orderSummary2" component={orderSummary2} />
              <Route path="/orderconfirmation" component={orderConfirmation} />
-             {/* <Route path="/orderStatus" component={orderStatus} /> */}
+             <Route path="/orderStatus" component={orderConfirmation} />
          </Switch>
       </Router>
 
