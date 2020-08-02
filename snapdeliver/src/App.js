@@ -15,6 +15,7 @@ import orderSummary2 from "./pages/order-summary";
 import signupvendor from "./pages/signupvendor";
 import userAccount from "./pages/userAccount";
 import vendorLogin from "./pages/vendorLogin";
+import orderHistory from "./pages/orderHistory";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
@@ -37,8 +38,9 @@ function App() {
                     <Route path="/orderconfirmation" component={orderConfirmation} />
                     <Route path="/userAccount" component={userAccount} />
                     <Route path="/vendorLogin" component={vendorLogin} />
-                    <Route path="/orderconfirmation" component={orderConfirmation} />
                     <Route path="/orderStatus" component={orderConfirmation} />
+                    <Route path="/orderHistory" component={orderHistory} />
+
 
                 </Switch>
             </Router>

@@ -153,16 +153,9 @@ const vendorPage = ()=>{
               </li>
              
             </ul>
-            <div class="card p-2">
-              <div class="input-group">
-                {/* <input type="text" class="form-control" placeholder="Promo code"></input>
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-secondary">Redeem</button>
-                </div> */}
+               
                      <a href="/orderSummary2"><button class="btn btn-primary btn-lg btn-block" type="submit">Order Now</button></a>
 
-              </div>
-                </div>
 </div>
 </div>
                 <hr></hr>
