@@ -6,7 +6,8 @@ import {Link} from 'react-router-dom';
 const orderSummary = ()=>{
     return(
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bgg-light">
+     
+<nav class="navbar navbar-expand-lg navbar-light bgg-light">
         <img class="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,6 +31,8 @@ const orderSummary = ()=>{
         <a href="/orderSummary2"><button type="button" class="btn btn-primary button-space">cart</button></a>
         
         <a href="/userAccount"><button type="button" class="btn btn-primary button-space" onClick="/signup">My Account</button></a>
+        <a href="/orderHistory"><button type="button" class="btn btn-primary button-space" onClick="/orderHistory">My Orders</button></a>
+
         <button type="button" class="btn btn-primary button-space">Log out</button>
 
         </ul>
