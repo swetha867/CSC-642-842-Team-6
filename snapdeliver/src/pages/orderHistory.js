@@ -45,10 +45,13 @@ const OrderHistory  = ()=>{
 
     <h5 class="card-title">Current Orders</h5>
     <div class="card"  style={{"width":"18rem;"}}>
-  <img src={require(`../images/drink.jpg`)} class="card-img-top" alt="..."/>
+  <img src={require(`../images/drink.jpg`)} style={{height: "25vw", "object-fit": "cover"}} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Tuna Sandwich</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Coffee</h5>
+    <p class="card-text">Total: $21.6</p>
+    <p class="card-text">Ordered on:08/05/2020 5:37PM IST</p>
+    <p class="card-text">Delivery: 12-15 min</p>
+
     <a href="#" class="btn btn-primary" style={{"float":"right"}}>View</a>
     <a href="#" class="btn btn-danger">Cancel</a>
 
@@ -56,10 +59,12 @@ const OrderHistory  = ()=>{
 </div>
 <br/>
 <div class="card"  style={{"width":"18rem;"}}>
-  <img src={require(`../images/friedrice.jpg`)} class="card-img-top" alt="..."/>
+  <img src="https://images.unsplash.com/photo-1541833000669-8dbe1bfb574a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" style={{height: "25vw", "object-fit": "cover"}} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title"> Turkey Sandwich</h5>
+    <p class="card-text">Total: $21.6</p>
+    <p class="card-text">Ordered on:08/05/2020 5:37PM IST</p>
+    <p class="card-text">Delivery: 12-15 min</p>
     <a href="#" class="btn btn-primary" style={{"float":"right"}}>View</a>
     <a href="#" class="btn btn-danger">Cancel</a>  </div>
   </div>
@@ -72,23 +77,28 @@ const OrderHistory  = ()=>{
 
     <h5 class="card-title">Order History</h5>
     <div class="card"  style={{"width":"18rem;"}}>
-  <img src={require(`../images/drink.jpg`)} class="card-img-top" alt="..."/>
+  <img src="https://images.unsplash.com/flagged/photo-1565192835791-7b3069d9eea4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=385&q=80" style={{height: "25vw", "object-fit": "cover"}}  class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Tuna Sandwich</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Rasberry Smoothie</h5>
+    <p class="card-text">Total: $11.6</p>
+    <p class="card-text">Ordered on:08/05/2020 5:37PM IST</p>
+    <p>.</p>
     <a href="#" class="btn btn-primary" style={{"float":"right"}}>View</a>
-    <a href="#" class="btn btn-danger">Cancel</a>
+
 
   </div>
 </div>
 <br/>
 <div class="card"  style={{"width":"18rem;"}}>
-  <img src={require(`../images/friedrice.jpg`)} class="card-img-top" alt="..."/>
+  <img src="https://images.unsplash.com/photo-1525803377221-4f6ccdaa5133?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80" style={{height: "25vw", "object-fit": "cover"}} class="card-img-top" alt="..."/>
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Boba Tea</h5>
+    <p class="card-text">Total: $12.6</p>
+    <p class="card-text">Ordered on:08/05/2020 5:37PM IST</p>
+    <p>.</p>
     <a href="#" class="btn btn-primary" style={{"float":"right"}}>View</a>
-    <a href="#" class="btn btn-danger">Cancel</a>  </div>
+
+</div>
   </div>
 </div>
     </div>

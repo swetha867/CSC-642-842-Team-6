@@ -3,9 +3,14 @@ import "../css/home.css"
 import {Link} from 'react-router-dom';
 
 
-const vendorHome = ()=>{
+const VendorHome = ()=>{
+    const [show, setShow] = React.useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return(
-    <div>
+        <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bgg-light">
             <img class="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,19 +29,110 @@ const vendorHome = ()=>{
             </div>
 
             <div>
+       
+
                 <ul>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <i class="far fa-bell"><span class="badge badge-danger">1</span></i>
+            </button>
+      
+                
+                {/* <a href="/notifications"><button type="button" class="btn btn-primary button-space"> <i class="far fa-bell"><span class="badge badge-danger">1</span></i></button></a> */}
+
                     <a href="/login"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
 
                     <button type="button" class="btn btn-primary button-space">Log out</button>
                 </ul>
             </div>
+           
+           
+            <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{"background-color":" #EDEAEA;"}}>
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New Customer</h5>
 
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="container">
+        
+                  {/* <ul class="list-group" class="d-flex w-100 justify-content-between">
+                  <li class="list-group-item"> */}
+       
+        
+        <table class="table-borderless table-sm">
+        <tbody>
+        <tr>
+        
+        <td>Order Id</td>
+        <td>1002</td>
+        
+        </tr>
+        <tr>
+        
+        <td>Customer</td>
+        <td>Ariana</td>
+        
+        </tr>
+        <tr>
+        
+        <td>Order Time </td>
+        <td>Today 5:20PM</td>
+        
+        </tr>
+        <tr>
+        
+        <td>Address</td>
+        <td>1600 Hollway Ave,San Francisco,Humanities Building,CA-94112</td>
+        
+        </tr>
+        
+        
+        
+        
+        
+        <tr>
+        
+        <td>Note</td>
+        <td>Delivery ,No contact</td>
+        
+        </tr>
+      
+     
+     
+        
+        </tbody></table>
+     
+       
+        </div>
+        
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success"  data-dismiss="modal">Receive Order</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
         </nav>
         <div class="wallpapered">
+       
             
-            <Link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-                integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-                crossOrigin="anonymous"> </Link>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="..."/>
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
             
             <div className="container container-vendor">
             
@@ -76,17 +172,17 @@ const vendorHome = ()=>{
                         
                         <div className="row">
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} alt=""/>
+                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} style={{height: "12vw", "object-fit": "cover"}} alt=""/>
                                 <br></br>
                                 Chicken Sandwich
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} alt=""/>
+                            <img className="card-img-top" src="https://images.unsplash.com/photo-1558985250-27a406d64cb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style={{height: "12vw", "object-fit": "cover"}} alt=""/>
                                 <br></br>
                                Tuna Sandwich
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                            <img className="card-img-top" src={require(`../images/sandwich.jpg`)} alt=""/>
+                            <img className="card-img-top" src="https://images.unsplash.com/photo-1517254456976-ee8682099819?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=358&q=80"  style={{height: "12vw", "object-fit": "cover"}} alt=""/>
                                 <br></br>
                                 Turkey sandwich
                             </div>
@@ -95,17 +191,17 @@ const vendorHome = ()=>{
                         <h3>Drinks</h3>
                         <div className="row">
                         <div className="vendor-menu-item col-xs-6 col-md-3">
-                        <img className="card-img-top" src={require(`../images/drink.jpg`)} alt=""/>
+                        <img className="card-img-top" src={require(`../images/drink.jpg`)} style={{height: "12vw", "object-fit": "cover"}} alt=""/>
                                 <br></br>
                                 Latte
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                            <img className="card-img-top" src={require(`../images/drink.jpg`)} alt=""/>
+                            <img className="card-img-top" style={{height: "12vw", "object-fit": "cover"}} src="https://images.unsplash.com/photo-1458819714733-e5ab3d536722?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80" alt=""/>
                                 <br></br>
                                 Coffee
                             </div>
                             <div className="vendor-menu-item col-xs-6 col-md-3">
-                            <img className="card-img-top" src={require(`../images/drink.jpg`)} alt=""/>
+                            <img className="card-img-top" style={{height: "12vw", "object-fit": "cover"}} src="https://images.unsplash.com/photo-1513244608388-32427255be63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt=""/>
                                 <br></br>
                                Mocha
                             </div>
@@ -114,7 +210,7 @@ const vendorHome = ()=>{
                         </div>
                        
                     </div>
-                   
+            
                 </div>
 
             </div>
@@ -127,4 +223,4 @@ const vendorHome = ()=>{
 
 
 }
-export default vendorHome;
+export default VendorHome;
