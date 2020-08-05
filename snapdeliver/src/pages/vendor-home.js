@@ -12,16 +12,16 @@ const VendorHome = ()=>{
     return(
         <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bgg-light">
-            <img class="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <img className="snap-logo card-img-top" src={require(`../images/snaplogo.png`)} alt=""/>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
             
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 
-                    <li class="nav-item active">
-                    <a class="nav-link homepage" href="/home">Vendor Home <span class="sr-only">(current)</span></a>
+                    <li className="nav-item active">
+                    <a className="nav-link homepage" href="/home">Vendor Home <span className="sr-only">(current)</span></a>
                     </li>
 
                 </ul>
@@ -32,8 +32,8 @@ const VendorHome = ()=>{
        
 
                 <ul>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                <i class="far fa-bell"><span class="badge badge-danger">1</span></i>
+                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <i class="far fa-bell"><span className="badge badge-danger">1</span></i>
             </button>
       
                 
@@ -46,7 +46,7 @@ const VendorHome = ()=>{
             </div>
            
            
-            <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{"background-color":" #EDEAEA;"}}>
+            <div class="modal fade bd-example-modal-lg" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style={{"backgroundColor":" #EDEAEA"}}>
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -89,28 +89,18 @@ const VendorHome = ()=>{
         <td>1600 Hollway Ave,San Francisco,Humanities Building,CA-94112</td>
         
         </tr>
-        
-        
-        
-        
-        
+
         <tr>
         
         <td>Note</td>
         <td>Delivery ,No contact</td>
-        
         </tr>
-      
-     
-     
-        
         </tbody></table>
      
        
         </div>
-        
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-success"  data-dismiss="modal">Receive Order</button>
+                    <div class="modal-footer">
+                      <a href="/vendororderlist"> <button type="button" class="btn btn-success" >Receive Order</button></a>
                   </div>
                 </div>
               </div>
@@ -157,7 +147,7 @@ const VendorHome = ()=>{
                         </h6>
                     </div>
                     <div className="col-md-4">
-                        <a href="#">Change Info</a>
+                        <a href="#" style={{"float":"right"}}>Change Info</a>
                     </div>
                 </div>
 

@@ -16,6 +16,7 @@ import signupvendor from "./pages/signupvendor";
 import userAccount from "./pages/userAccount";
 import vendorLogin from "./pages/vendorLogin";
 import orderHistory from "./pages/orderHistory";
+import vendororderlist from "./pages/vendorOrderList";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
@@ -40,7 +41,7 @@ function App() {
                     <Route path="/vendorLogin" component={vendorLogin} />
                     <Route path="/orderStatus" component={orderConfirmation} />
                     <Route path="/orderHistory" component={orderHistory} />
-
+                    <Route path="/vendororderlist" component={vendororderlist} />
 
                 </Switch>
             </Router>
