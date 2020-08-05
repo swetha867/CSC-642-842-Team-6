@@ -36,7 +36,6 @@ const home = ()=>{
             </nav>
               {/*home wallpaper */}
               <div>
-                  <img className="homewallpaper"  class="figure-img img-fluid rounded" src={require(`../images/homewallpaper.png`)} alt=""/>
                   {/* search bar */}
 
                   {/* <Link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </Link>
@@ -45,19 +44,43 @@ const home = ()=>{
                           <input type="text" placeholder="Search.." name="search"/>
                               <button type="submit"><i class="fa fa-search"></i></button>
                       </form> */}
-                  <h1 className= "caption">SnapDeli, A new way to Eat</h1>
                   <Link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
                         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
                         crossOrigin="anonymous"> </Link>
                       <div className="container">
+                      <div class="thumbnail">
+                      <img   class="figure-img img-fluid rounded" src={require(`../images/homewallpaper.png`)} alt=""/>
+                      <h4 className= "caption" >SnapDeli, A new way to Eat</h4>
+                      <div className="row justify-content-center">
+                              <div className="col-12 col-md-10 col-lg-8 col-sm-4 search-bar">
+                                  <form className="card card-sm" >
+                                      <div className="cardbody row no-gutters align-items-center">
+                                     
+                                          <div className="col">
+                                          
+                                              <input className="form-control form-control-lg "
+                                                     type="search" placeholder="What are you craving?" ></input>
+                                          </div>
+
+                                          <div className="col-auto">
+                                          <a href="/search"><button className="btn btn-lg btn-success" type="button">Find</button></a>
+                                          </div>
+
+                                      </div>
+                                  </form>
+                              </div> 
+
+                          </div>
+                      
+                      </div>
                           <br/>
-                          <div className="row justify-content-center">
+                          {/* {/* <div className="row justify-content-center">
                               <div className="col-12 col-md-10 col-lg-8 search-bar">
                                   <form className="card card-sm" >
                                       <div className="cardbody row no-gutters align-items-center">
-
-
+                                     
                                           <div className="col">
+                                          
                                               <input className="form-control form-control-lg form-control-borderless"
                                                      type="search" placeholder="What are you craving?" ></input>
                                           </div>
@@ -68,9 +91,9 @@ const home = ()=>{
 
                                       </div>
                                   </form>
-                              </div>
+                              </div> 
 
-                          </div>
+                          </div> */}
                       </div>
               </div>
 
