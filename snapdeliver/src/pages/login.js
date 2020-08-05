@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/snapDeli.css"
+import "../css/snapDeli.css";
 
 
 const login = ()=>{
@@ -33,11 +33,12 @@ const login = ()=>{
                     </ul>
                 </div>
             </nav>
-  <div class="form-signin">
+
+            <div class="form-signin">
   
-  <h1 class="h3 mb-3 font-weight-normal">Log In</h1>
+           <h1 class="h3 mb-3 font-weight-normal">Log In</h1>
   
-  <div class="form-group">
+          <div class="form-group">
         <label for="inputEmail" style={{"float":"left","font-weight":"bold"}}>Email Address</label>
         <input type="email" class="form-control" id="inputEmail"  placeholder="Enter Email"></input>
          
@@ -51,13 +52,13 @@ const login = ()=>{
 
          <a href="/"><button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button></a>
   <br/>
-      <li class="list-inline-item"><a class="mt-5 mb-3 " href="/signup">Dont have an account?Signup</a></li>
-      <div >
-      </div>
-      </div>
+
+      <li class="list-inline-item"><a class="mt-5 mb-3 " href="/signup">Dont have an account? Signup</a></li>
       <div>
-                <img class="snap-logo card-img-top login-background" src={require(`../images/login-background.png`)} alt=""/>
-            </div>
+
+      </div>
+
+      </div>
 </div>
 
     )
