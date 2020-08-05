@@ -93,6 +93,7 @@
     align-items: center;
     font-weight: bold;
     font-family: Helvetica;
+   
 }
 
 /*home search bar */
@@ -124,3 +125,16 @@
  .bgg-light {
      background-color: white !important;
  }
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .thumbnail {
+    position: relative;
+    margin-bottom: 0;
+    border: 0;
+    border-color: transparent;
+}
+
