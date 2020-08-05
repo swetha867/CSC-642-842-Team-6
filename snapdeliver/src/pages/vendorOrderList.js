@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/vendororder.css"
+import "../css/vendororder.css";
 import {Link} from 'react-router-dom';
 
 const vendorOrderList = ()=>{
@@ -24,7 +24,7 @@ const vendorOrderList = ()=>{
 
                 <div>
                     <ul>
-                        <a href="/login"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
+                    <a href="/vendororderlist"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
 
                         <button type="button" class="btn btn-primary button-space">Log out</button>
                     </ul>

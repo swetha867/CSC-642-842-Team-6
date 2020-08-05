@@ -39,9 +39,9 @@ const VendorHome = ()=>{
                 
                 {/* <a href="/notifications"><button type="button" class="btn btn-primary button-space"> <i class="far fa-bell"><span class="badge badge-danger">1</span></i></button></a> */}
 
-                    <a href="/login"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
+                    <a href="/vendororderlist"><button type="button" class="btn btn-primary button-space">My Orders</button></a>
 
-                    <button type="button" class="btn btn-primary button-space">Log out</button>
+                    <a href="/login"> <button type="button" class="btn btn-primary button-space">Log out</button></a>
                 </ul>
             </div>
            
