@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/CSC-642-842-Team-6/static/css/main.9f387805.chunk.css",
-    "main.js": "/CSC-642-842-Team-6/static/js/main.3f43df70.chunk.js",
-    "main.js.map": "/CSC-642-842-Team-6/static/js/main.3f43df70.chunk.js.map",
+    "main.js": "/CSC-642-842-Team-6/static/js/main.dd0c747a.chunk.js",
+    "main.js.map": "/CSC-642-842-Team-6/static/js/main.dd0c747a.chunk.js.map",
     "runtime-main.js": "/CSC-642-842-Team-6/static/js/runtime-main.b4f2c29a.js",
     "runtime-main.js.map": "/CSC-642-842-Team-6/static/js/runtime-main.b4f2c29a.js.map",
     "static/css/2.829c9cb5.chunk.css": "/CSC-642-842-Team-6/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.9d491824.chunk.js": "/CSC-642-842-Team-6/static/js/2.9d491824.chunk.js",
-    "static/js/2.9d491824.chunk.js.map": "/CSC-642-842-Team-6/static/js/2.9d491824.chunk.js.map",
+    "static/js/2.c162209c.chunk.js": "/CSC-642-842-Team-6/static/js/2.c162209c.chunk.js",
+    "static/js/2.c162209c.chunk.js.map": "/CSC-642-842-Team-6/static/js/2.c162209c.chunk.js.map",
     "index.html": "/CSC-642-842-Team-6/index.html",
-    "precache-manifest.2669e4df9b80b8d8b5044ee34adffa97.js": "/CSC-642-842-Team-6/precache-manifest.2669e4df9b80b8d8b5044ee34adffa97.js",
+    "precache-manifest.9a6e38745d77b721467b5fda5df7d2f8.js": "/CSC-642-842-Team-6/precache-manifest.9a6e38745d77b721467b5fda5df7d2f8.js",
     "service-worker.js": "/CSC-642-842-Team-6/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/CSC-642-842-Team-6/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.9f387805.chunk.css.map": "/CSC-642-842-Team-6/static/css/main.9f387805.chunk.css.map",
-    "static/js/2.9d491824.chunk.js.LICENSE.txt": "/CSC-642-842-Team-6/static/js/2.9d491824.chunk.js.LICENSE.txt",
+    "static/js/2.c162209c.chunk.js.LICENSE.txt": "/CSC-642-842-Team-6/static/js/2.c162209c.chunk.js.LICENSE.txt",
     "static/media/coffee.jpg": "/CSC-642-842-Team-6/static/media/coffee.c59b807b.jpg",
     "static/media/drink.jpg": "/CSC-642-842-Team-6/static/media/drink.7a32930e.jpg",
     "static/media/friedrice.jpg": "/CSC-642-842-Team-6/static/media/friedrice.abbb2ac8.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.b4f2c29a.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.9d491824.chunk.js",
+    "static/js/2.c162209c.chunk.js",
     "static/css/main.9f387805.chunk.css",
-    "static/js/main.3f43df70.chunk.js"
+    "static/js/main.dd0c747a.chunk.js"
   ]
 }
